@@ -166,61 +166,6 @@ function generateFilmList(container, films) {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// // Générer les sous-catégories pour chaque film
-// function generateSubcategories(film) {
-//     if (!film || !film.type) return "";
-
-//     if (film.type === 1 && Array.isArray(film.list)) {
-//         return film.list.map(item => `
-//             <li style="list-style: none;" style="background-color: #00DD00">
-//                 <div class="dropdown" style="background-color: #00DD00">
-//                     <p class="dropdown-header" onclick="toggleDropdown('${item.id}-dropdown')" style="background-color: #00DD00">
-//                         ${item.title}
-//                     </p>
-//                     <ul id="${item.id}-dropdown" class="dropdown-menu hidden">
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${item.lien_info}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">INFORMATIONS</a>
-//                         </li>
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${item.lien_trailer}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">TRAILER</a>
-//                         </li>
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${item.lien_vo}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">FULL ANGLAIS</a>
-//                         </li>
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${item.lien_vf}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">FULL FRANCAIS</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </li>
-//         `).join("");
-//     } else if (film.type === -1) {
-//         return `
-//             <li style="list-style: none;" style="background-color: #00DD00">
-//                 <div class="dropdown" style="background-color: #00DD00">
-//                     <p class="dropdown-header" onclick="toggleDropdown('${film.id}-dropdown')" style="background-color: #00DD00">
-//                         ${film.title}
-//                     </p>
-//                     <ul id="${film.id}-dropdown" class="dropdown-menu hidden">
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${film.lien_info}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">INFORMATIONS</a>
-//                         </li>
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${film.lien_trailer}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">TRAILER</a>
-//                         </li>
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${film.lien_vo}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">FULL ANGLAIS</a>
-//                         </li>
-//                         <li style="list-style: none;" style="background-color: #00DD00">
-//                             <a href="${film.lien_vf}" target="_blank" rel="noopener noreferrer" style="background-color: #00DD00">FULL FRANCAIS</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </li>
-//         `;
-//     }
-// }
-
 // Générer les sous-catégories pour chaque film
 function generateSubcategories(film) {
     if (!film || !film.type) return "";
