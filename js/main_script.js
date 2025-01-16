@@ -174,7 +174,7 @@ function generateSubcategories(film) {
         return film.list.map(item => `
             <li style="list-style: none;">
                 <div class="dropdown">
-                    <p class="dropdown-header" onclick="toggleDropdown('${item.id}-dropdown')">
+                    <p class="dropdown-header" onclick="toggleDropdown('${item.id}-dropdown')" style="background-color: #00DD00">
                         ${item.title}
                     </p>
                     <ul id="${item.id}-dropdown" class="dropdown-menu hidden">
