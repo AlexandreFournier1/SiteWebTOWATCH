@@ -1,12 +1,17 @@
 {
-    "films": [
+    "horreur": [
         {
             "id": "nomCat_nomFilm",
             "title": "Exemple",
             "description": "Exemple",
             "lien-info": "",
             "lien-vo": "",
-            "lien-vf": ""
+            "lien-vf": "",
+            "list": [
+                {
+                    "blabla": "1"
+                }
+            ]
         },
         {
             "id": "horreur_halloween",
