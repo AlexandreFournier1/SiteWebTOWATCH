@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Fonction pour charger et afficher les films par catégorie
 function loadFilmsByCategory(category) {
+    // Conteneur cible pour chaque catégorie
     const containerId = `filmListContainer_${capitalizeFirstLetter(category)}`;
     const container = document.getElementById(containerId);
 
@@ -14,22 +15,27 @@ function loadFilmsByCategory(category) {
         return;
     }
 
-    // Charger le fichier JSON correspondant
-    fetch(`data_${category}.json`)
+    // Construction dynamique du chemin vers le fichier JSON
+    const jsonPath = `../../json/films/data_${category}.json`;
+
+    // Charger les données depuis le fichier JSON
+    fetch(jsonPath)
         .then(response => {
             if (!response.ok) {
-                throw new Error(`Erreur lors du chargement des données pour la catégorie "${category}".`);
+                throw new Error(`Erreur HTTP : ${response.status} pour la catégorie "${category}".`);
             }
             return response.json();
         })
-        .then(filmsData => {
-            if (!filmsData || filmsData.length === 0) {
+        .then(data => {
+            if (data[category] && data[category].length > 0) {
+                generateFilmList(container, data[category]);
+            } else {
                 console.error(`Aucun film trouvé pour la catégorie "${category}".`);
-                return;
             }
-            generateFilmList(container, filmsData);
         })
-        .catch(error => console.error(`Erreur: ${error.message}`));
+        .catch(error => {
+            console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
+        });
 }
 
 // Générer la liste de films dans le conteneur spécifié
