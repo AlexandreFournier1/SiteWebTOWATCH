@@ -97,10 +97,10 @@ function generateSubcategories(film) {
                         ${item.title}
                     </p>
                     <ul id="${item.id}-dropdown" class="dropdown-menu hidden">
-                        <li style="list-style: none;"><a href="${item.lien_info}" style="background-color: #00DD00">INFORMATIONS</a></li>
-                        <li style="list-style: none;"><a href="${item.lien_trailer}" style="background-color: #00DD00">TRAILER</a></li>
-                        <li style="list-style: none;"><a href="${item.lien_vo}" style="background-color: #00DD00">FULL ANGLAIS</a></li>
-                        <li style="list-style: none;"><a href="${item.lien_vf}" style="background-color: #00DD00">FULL FRANCAIS</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_info}" target="_blank" style="background-color: #00DD00">INFORMATIONS</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_trailer}" target="_blank" style="background-color: #00DD00">TRAILER</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_vo}" target="_blank" style="background-color: #00DD00">FULL ANGLAIS</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_vf}" target="_blank" style="background-color: #00DD00">FULL FRANCAIS</a></li>
                     </ul>
                 </div>
             </li>
@@ -113,10 +113,10 @@ function generateSubcategories(film) {
                         ${film.title}
                     </p>
                     <ul id="${film.id}-dropdown" class="dropdown-menu hidden">
-                        <li style="list-style: none;"><a href="${film.lien_info}" style="background-color: #00DD00">INFORMATIONS</a></li>
-                        <li style="list-style: none;"><a href="${film.lien_trailer}" style="background-color: #00DD00">TRAILER</a></li>
-                        <li style="list-style: none;"><a href="${film.lien_vo}" style="background-color: #00DD00">FULL ANGLAIS</a></li>
-                        <li style="list-style: none;"><a href="${film.lien_vf}" style="background-color: #00DD00">FULL FRANCAIS</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_info}" target="_blank" style="background-color: #00DD00">INFORMATIONS</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_trailer}" target="_blank" style="background-color: #00DD00">TRAILER</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_vo}" target="_blank" style="background-color: #00DD00">FULL ANGLAIS</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_vf}" target="_blank" style="background-color: #00DD00">FULL FRANCAIS</a></li>
                     </ul>
                 </div>
             </li>
