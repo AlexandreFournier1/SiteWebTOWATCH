@@ -105,3 +105,81 @@ function generateSubcategories(film) {
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+// Fonction de bascule pour afficher ou masquer les descriptions
+function toggleExplanation(id) {
+    // Trouver la catégorie correspondante à partir de l'ID
+    const categories = ['action', 'drame', 'comedie', 'horreur', 'scifi', 'thriller'];
+    let category = categories.find(cat => id.startsWith(cat));
+    if (!category) {
+        console.error("Catégorie introuvable pour l'ID :", id);
+        return;
+    }
+
+    const jsonPath = `../../json/films/data_${category}.json`;
+
+    // Charger le fichier JSON correspondant à la catégorie
+    fetch(jsonPath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Erreur HTTP : ${response.status} pour la catégorie "${category}".`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            let films = Array.isArray(data) ? data : data[category]; // Gérer les deux structures possibles
+            if (!films) {
+                console.error(`Aucun film trouvé dans le fichier JSON de la catégorie "${category}".`);
+                return;
+            }
+
+            // Trouver le film correspondant à l'ID
+            let film = films.find(f => f.id === id);
+            const explanation = document.getElementById(`${id}-description`);
+            if (!explanation) {
+                console.error("Élément de description introuvable pour l'ID :", id);
+                return;
+            }
+
+            if (film) {
+                explanation.innerHTML = `${film.description}`;
+            } else {
+                explanation.textContent = "Film non trouvé.";
+            }
+
+            // Appliquer le style
+            explanation.style.marginTop = "20px";
+            explanation.style.marginBottom = "20px";
+            explanation.style.padding = "10px";
+            explanation.style.border = "3px ridge #028f02b0";
+            explanation.style.borderRadius = "5px";
+            explanation.style.backgroundColor = "#00DD00";
+            explanation.style.fontSize = "14px";
+            explanation.style.lineHeight = "1.5";
+            explanation.style.color = "white";
+            explanation.style.width = "450px";
+
+            // Afficher ou masquer la description
+            if (explanation.style.display === "none" || !explanation.style.display) {
+                explanation.style.display = "block";
+            } else {
+                explanation.style.display = "none";
+            }
+        })
+        .catch(error => {
+            console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
+        });
+}
+
+// Fonction pour basculer les sous-catégories
+function toggleDropdown(menuId) {
+    const menu = document.getElementById(menuId);
+
+    if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden");
+        menu.style.display = "block";
+    } else {
+        menu.classList.add("hidden");
+        menu.style.display = "none";
+    }
+}
