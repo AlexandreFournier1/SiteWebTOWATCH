@@ -20,22 +20,22 @@ function loadFilmsByCategory(category) {
 
     // Charger les données depuis le fichier JSON
     fetch(jsonPath)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Erreur HTTP : ${response.status} pour la catégorie "${category}".`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        if (Array.isArray(data) && data.length > 0) {
-            generateFilmList(container, data);
-        } else {
-            console.error(`Aucun film trouvé pour la catégorie "${category}".`);
-        }
-    })
-    .catch(error => {
-        console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
-    });
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Erreur HTTP : ${response.status} pour la catégorie "${category}".`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data[category] && data[category].length > 0) {
+                generateFilmList(container, data[category]);
+            } else {
+                console.error(`Aucun film trouvé pour la catégorie "${category}".`);
+            }
+        })
+        .catch(error => {
+            console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
+        });
 }
 
 // Générer la liste de films dans le conteneur spécifié
