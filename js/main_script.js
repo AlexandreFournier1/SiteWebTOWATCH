@@ -172,32 +172,32 @@ function generateSubcategories(film) {
 
     if (film.type === 1 && Array.isArray(film.list)) {
         return film.list.map(item => `
-            <li style="list-style: none;">
-                <div class="dropdown">
+            <li style="list-style: none;" style="background-color: #00DD00">
+                <div class="dropdown" style="background-color: #00DD00">
                     <p class="dropdown-header" onclick="toggleDropdown('${item.id}-dropdown')" style="background-color: #00DD00">
                         ${item.title}
                     </p>
                     <ul id="${item.id}-dropdown" class="dropdown-menu hidden">
-                        <li><a href="${item.lien_info}">INFORMATIONS</a></li>
-                        <li><a href="${item.lien_trailer}">TRAILER</a></li>
-                        <li><a href="${item.lien_vo}">FULL ANGLAIS</a></li>
-                        <li><a href="${item.lien_vf}">FULL FRANCAIS</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_info}" style="background-color: #00DD00">INFORMATIONS</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_trailer}" style="background-color: #00DD00">TRAILER</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_vo}" style="background-color: #00DD00">FULL ANGLAIS</a></li>
+                        <li style="list-style: none;"><a href="${item.lien_vf}" style="background-color: #00DD00">FULL FRANCAIS</a></li>
                     </ul>
                 </div>
             </li>
         `).join("");
     } else if (film.type === -1) {
         return `
-            <li style="list-style: none;">
-                <div class="dropdown">
-                    <p class="dropdown-header" onclick="toggleDropdown('${film.id}-dropdown')">
+            <li style="list-style: none;" style="background-color: #00DD00">
+                <div class="dropdown" style="background-color: #00DD00">
+                    <p class="dropdown-header" onclick="toggleDropdown('${film.id}-dropdown')" style="background-color: #00DD00">
                         ${film.title}
                     </p>
                     <ul id="${film.id}-dropdown" class="dropdown-menu hidden">
-                        <li><a href="${film.lien_info}">INFORMATIONS</a></li>
-                        <li><a href="${film.lien_trailer}">TRAILER</a></li>
-                        <li><a href="${film.lien_vo}">FULL ANGLAIS</a></li>
-                        <li><a href="${film.lien_vf}">FULL FRANCAIS</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_info}" style="background-color: #00DD00">INFORMATIONS</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_trailer}" style="background-color: #00DD00">TRAILER</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_vo}" style="background-color: #00DD00">FULL ANGLAIS</a></li>
+                        <li style="list-style: none;"><a href="${film.lien_vf}" style="background-color: #00DD00">FULL FRANCAIS</a></li>
                     </ul>
                 </div>
             </li>
