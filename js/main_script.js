@@ -1,8 +1,31 @@
+function redirectToPlatform(type) {
+    var select;
+
+    if (type == "NavBar")
+    {
+        select = document.getElementById("Platforme");
+    }
+    
+    if(type == "LiensFilms")
+    {
+        select = document.getElementById("Liens");
+    }
+    
+    var selectedValue = select.value;
+    if (selectedValue) {
+        window.location.href = selectedValue;  // Redirige vers l'URL de la plateforme sélectionnée
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // Charger les films de chaque catégorie depuis un fichier JSON
 document.addEventListener("DOMContentLoaded", () => {
     const categories = ['action', 'comedie', 'horreur', 'scifi', 'thriller'];
     categories.forEach(category => loadFilmsByCategory(category));
 });
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Fonction pour charger et afficher les films par catégorie
 function loadFilmsByCategory(category) {
@@ -37,6 +60,8 @@ function loadFilmsByCategory(category) {
             console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
         });
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Fonction de bascule pour afficher ou masquer les descriptions
 window.toggleExplanation = function (id) {
@@ -84,8 +109,8 @@ window.toggleExplanation = function (id) {
             explanation.style.backgroundColor = "#00DD00";
             explanation.style.fontSize = "14px";
             explanation.style.lineHeight = "1.5";
-            explanation.style.color = "white";
-            explanation.style.width = "450px";
+            explanation.style.color ="white";
+            explanation.style.width ="450px";
 
             if (explanation.style.display === "none" || !explanation.style.display) {
                 explanation.style.display = "block";
@@ -97,6 +122,8 @@ window.toggleExplanation = function (id) {
             console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
         });
 };
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Fonction pour basculer les sous-catégories
 window.toggleDropdown = function (menuId) {
@@ -110,6 +137,8 @@ window.toggleDropdown = function (menuId) {
         menu.style.display = "none";
     }
 };
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Générer la liste de films dans le conteneur spécifié
 function generateFilmList(container, films) {
@@ -134,6 +163,8 @@ function generateFilmList(container, films) {
         container.appendChild(listItem);
     });
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Générer les sous-catégories pour chaque film
 function generateSubcategories(film) {
@@ -173,6 +204,8 @@ function generateSubcategories(film) {
         `;
     }
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Fonction utilitaire pour capitaliser la première lettre
 function capitalizeFirstLetter(string) {
