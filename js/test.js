@@ -107,8 +107,7 @@ function capitalizeFirstLetter(string) {
 }
 
 // Fonction de bascule pour afficher ou masquer les descriptions
-function toggleExplanation(id) {
-    // Trouver la catégorie correspondante à partir de l'ID
+window.toggleExplanation = function (id) {
     const categories = ['action', 'drame', 'comedie', 'horreur', 'scifi', 'thriller'];
     let category = categories.find(cat => id.startsWith(cat));
     if (!category) {
@@ -118,7 +117,6 @@ function toggleExplanation(id) {
 
     const jsonPath = `../../json/films/data_${category}.json`;
 
-    // Charger le fichier JSON correspondant à la catégorie
     fetch(jsonPath)
         .then(response => {
             if (!response.ok) {
@@ -127,13 +125,12 @@ function toggleExplanation(id) {
             return response.json();
         })
         .then(data => {
-            let films = Array.isArray(data) ? data : data[category]; // Gérer les deux structures possibles
+            let films = Array.isArray(data) ? data : data[category];
             if (!films) {
                 console.error(`Aucun film trouvé dans le fichier JSON de la catégorie "${category}".`);
                 return;
             }
 
-            // Trouver le film correspondant à l'ID
             let film = films.find(f => f.id === id);
             const explanation = document.getElementById(`${id}-description`);
             if (!explanation) {
@@ -147,7 +144,6 @@ function toggleExplanation(id) {
                 explanation.textContent = "Film non trouvé.";
             }
 
-            // Appliquer le style
             explanation.style.marginTop = "20px";
             explanation.style.marginBottom = "20px";
             explanation.style.padding = "10px";
@@ -159,7 +155,6 @@ function toggleExplanation(id) {
             explanation.style.color = "white";
             explanation.style.width = "450px";
 
-            // Afficher ou masquer la description
             if (explanation.style.display === "none" || !explanation.style.display) {
                 explanation.style.display = "block";
             } else {
@@ -169,10 +164,10 @@ function toggleExplanation(id) {
         .catch(error => {
             console.error(`Erreur lors du chargement des données pour la catégorie "${category}":`, error);
         });
-}
+};
 
 // Fonction pour basculer les sous-catégories
-function toggleDropdown(menuId) {
+window.toggleDropdown = function (menuId) {
     const menu = document.getElementById(menuId);
 
     if (menu.classList.contains("hidden")) {
@@ -182,4 +177,4 @@ function toggleDropdown(menuId) {
         menu.classList.add("hidden");
         menu.style.display = "none";
     }
-}
+};
