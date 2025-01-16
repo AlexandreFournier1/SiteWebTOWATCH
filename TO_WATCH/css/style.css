@@ -1,0 +1,193 @@
+* {
+    background-color: #74bb74;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li > h3 {
+    margin-bottom: 5px;
+}
+
+/*---------------------------------------------------------------------*/
+/*------------------------ Barre de Navigation ------------------------*/
+/*---------------------------------------------------------------------*/
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #00DD00;
+    border-radius: 5px;
+}
+
+#TypesAction, #TypesComedie, #TypesHorreur, #TypesSciFi, #TypesThriller {
+    background-color: #00DD00;
+    color: white;
+}
+
+#NavTypes {
+    border: 4px ridge #028f02b0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#Platforme {
+    background-color: #00DD00;
+    border: 1px ridge #028f02b0;
+    border-radius: 5px;
+    color: white;
+}
+
+/*---------------------------------------------------------------------*/
+/*----------------------------- Bouton ? ------------------------------*/
+/*---------------------------------------------------------------------*/
+
+/* Style du conteneur pour aligner le titre et le bouton */
+.title-button-container {
+    display: flex;
+    align-items: center; /* Aligne verticalement le titre et le bouton */
+    gap: 10px; /* Ajoute un espacement entre le titre et le bouton */
+}
+
+/* Style du titre */
+.title {
+    margin: 0;
+    margin-top: 15px;
+}
+
+/* Style du bouton */
+.button {
+    margin-top: 15px;
+    padding: 1px 4px;
+    font-size: 15px;
+    color: white;
+    background-color: #00DD00;
+    border: 3px #028f02b0 ridge;
+    border-radius: 5px;
+    cursor: help;
+}
+
+/* Effet au survol du bouton */
+.button:hover {
+    background-color: #70d670;
+}
+
+#text {
+    background-color: #00DD00;
+}
+
+/* Masquer l'explication par défaut */
+.hidden {
+    display: none;
+    position: absolute;
+}
+
+/*---------------------------------------------------------------------*/
+/*------------------------- Liens vers Sites --------------------------*/
+/*---------------------------------------------------------------------*/
+
+/* Style de base pour le texte cliquable */
+.dropdown-header {
+    cursor: pointer;
+    color: white;
+    display: inline; /* Empêche de prendre toute la largeur */
+    padding: 0; /* Supprime tout espace autour */
+}
+
+.dropdown-header:hover {
+    text-decoration: underline;
+}
+
+/* Style du menu déroulant */
+.dropdown-menu {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    border: 4px ridge #028f02b0;
+    border-radius: 5px;
+    background-color: #00DD00;
+    width: 150px;
+    position: absolute;
+    display: none; /* Masqué par défaut */
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #028f02b0;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover, .dropdown-menu a:hover {
+    color: black;
+}
+
+/* Classe pour masquer */
+.hidden {
+    display: none;
+}
+
+/*---------------------------------------------------------------------*/
+/*--------------------------- Box catégorie ---------------------------*/
+/*---------------------------------------------------------------------*/
+
+/* Conteneur principal des catégories */
+#categories-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+    gap: 20px; /* Espacement entre les sections */
+    justify-content: space-around; /* Répartition des sections */
+    margin: 20px;
+}
+
+/* Style pour chaque boîte de catégorie */
+.category-box {
+    background-color: #00DD00; /* Couleur de fond des boîtes */
+    border: 4px ridge #028f02b0; /* Bordure des boîtes */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px;
+    width: 300px; /* Largeur fixe pour chaque boîte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ombre pour un effet 3D */
+    /*text-align: center; /* Centrer le contenu */
+}
+
+/* Style pour le titre de chaque catégorie */
+.category-box #TitreCat {
+    margin-top: 0;
+    color: white;
+    text-decoration: overline underline white 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Listes dans les boîtes */
+.category-box ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    background-color: #00DD00;
+}
+
+/* Espacement entre les éléments de liste */
+.category-box li {
+    margin: 10px 0;
+    background-color: #00DD00;
+}
+
+/*---------------------------------------------------------------------*/
+/*----------------------- Décoration Quelconque -----------------------*/
+/*---------------------------------------------------------------------*/
+
+#films {
+    text-decoration: none;
+    color: white;
+}
+
+#TitreCat {
+    margin-top: 75px;
+    color: white;
+    text-decoration: overline underline white 5px;
+    background-color: #00DD00;
+}

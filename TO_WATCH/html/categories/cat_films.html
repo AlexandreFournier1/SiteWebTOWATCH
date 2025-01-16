@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../img/play_button.png" rel="icon">
+    <script src="../../js/data/data_horreur.js" defer></script>
+    <script src="../../js/data/data_action.js" defer></script>
+    <script src="../../js/data/data_comedie.js" defer></script>
+    <script src="../../js/data/data_drame.js" defer></script>
+    <script src="../../js/data/data_scifi.js" defer></script>
+    <script src="../../js/data/data_thriller.js" defer></script>
+    <script src="../../js/script.js" defer></script>
+    <title>TO WATCH FILM</title>
+</head>
+<body>
+    <header>
+        <nav id="NavTypes">
+            <div id="Menu" class="box">
+                <div id="TypesAction">
+                    Action
+                </div>
+                <!-- <div id="Drame">
+                    <a href="#Drame" id="SectionDrame">
+                        Drame
+                    </a>
+                </div> -->
+                <div id="TypesComedie">
+                    Comédie
+                </div>
+                <div id="TypesHorreur">
+                    Horreur
+                </div>
+                <div id="TypesSciFi">
+                    Sci-Fi
+                </div>
+                <div id="TypesThriller">
+                    Thriller
+                </div>
+                <div id="PlatformeStreaming">
+                    <label for="Platforme"></label>
+                    <select id="Platforme" name="Platforme" required onchange="redirectToPlatform('NavBar')">
+                        <option value="" disabled selected>Platforme</option>
+                        <option value="https://hdtodayz.to/"> FULL ANGLAIS </option>
+                        <option value="https://smartv-streaming.com/"> FULL FRANCAIS </option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <p>
+        <div id="categories-container">
+            <section class="category-box" id="Action">
+                <h1 id="TitreCat">ACTION</h1>
+                <ul id="filmListContainer_Action"></ul>
+            </section>
+            <section class="category-box" id="Comedie">
+                <h1 id="TitreCat">COMÉDIE</h1>
+                <ul id="filmListContainer_Comedie"></ul>
+            </section>
+            <section class="category-box" id="Horreur">
+                <h1 id="TitreCat">HORREUR</h1>
+                <ul id="filmListContainer_Horreur"></ul>
+            </section>
+            <section class="category-box" id="SciFi">
+                <h1 id="TitreCat">SCI-FI</h1>
+                <ul id="filmListContainer_Scifi"></ul>
+            </section>
+            <section class="category-box" id="Thriller">
+                <h1 id="TitreCat">THRILLER</h1>
+                <ul id="filmListContainer_Thriller"></ul>
+            </section>
+        </div>
+    </p>
+</body>
+</html>

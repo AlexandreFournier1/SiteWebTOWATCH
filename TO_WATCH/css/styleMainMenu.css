@@ -1,0 +1,47 @@
+/*----------------------------------------------------------*/
+/*--------------------- Menu Principal ---------------------*/
+/*----------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #74bb74;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#mainMenuBody {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+}
+
+#mainMenuSection {
+    display: flex;
+    flex-direction: column; /* Empile les éléments verticalement */
+    justify-content: center;
+    align-items: center;
+    border: 10px #00dd0069 ridge;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #00DD00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ajout d'une ombre pour le style */
+}
+
+#Main {
+    text-align: center;
+    font-size: xx-large;
+    background-color: #00DD00;
+    margin: 10px 0; /* Ajout d'espacement vertical entre les titres */
+}
+
+#CAT_FILMS, #CAT_SERIES, #CAT_ANIMES {
+    color: white;
+    background-color: #00DD00;
+}
