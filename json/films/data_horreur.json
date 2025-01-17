@@ -7,14 +7,6 @@
             "type": 1,
             "list": [
                 {
-                    "id": "horreur_halloween_3",
-                    "title": "Halloween 4 : The Return of Michael Myers",
-                    "lien_info": "https://fr.wikipedia.org/wiki/Halloween_4",
-                    "lien_trailer": "",
-                    "lien_vo": "https://hdtodayz.to/movie/watch-halloween-4-the-return-of-michael-myers-hd-17099",
-                    "lien_vf": ""
-                },
-                {
                     "id": "horreur_halloween_4",
                     "title": "Halloween 5 : The Revenge of Michael Myers",
                     "lien_info": "https://fr.wikipedia.org/wiki/Halloween_5",
