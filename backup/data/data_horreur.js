@@ -72,7 +72,7 @@ window.data_horreur = [
                 "lien_trailer": "",
                 "lien_vo": "https://hdtodayz.to/movie/watch-halloween-ends-hd-89170",
                 "lien_vf": ""
-            },
+            }
         ]      
     },
     {
@@ -438,7 +438,7 @@ window.data_horreur = [
                 "lien_trailer": "",
                 "lien_vo": "https://hdtodayz.to/movie/watch-poltergeist-hd-18271",
                 "lien_vf": ""
-            },
+            }
         ]
     },
     {
@@ -494,7 +494,7 @@ window.data_horreur = [
                 "lien_trailer": "",
                 "lien_vo": "",
                 "lien_vf": ""
-            },
+            }
         ]
     },
     {
@@ -850,5 +850,593 @@ window.data_horreur = [
         "lien_trailer": "https://youtu.be/cjgL1lYk7VE?si=zUILzkSAgEizN5uR",
         "lien_vo": "https://hdtodayz.to/movie/watch-dear-david-hd-101665",
         "lien_vf": "https://smartv-streaming.com/film-affiche/609768/"
+    },
+    {
+        "id": "horreur_TCM",
+        "title": "The Texas Chainsaw Massacre",
+        "description": "La saga The Texas Chainsaw Massacre suit l’histoire de Leatherface, un tueur sauvage portant un masque fait de peau humaine, qui fait partie d’une famille dégénérée et cannibale. Le premier film, réalisé par Tobe Hooper en 1974, présente un groupe de jeunes qui tombent entre les griffes de cette famille, devenant les proies d’un massacre sanglant. Les suites et remakes explorent l'héritage de Leatherface, ses origines et ses victimes, tout en offrant des scènes de violence brutale et un climat de terreur oppressante.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_TCM_2",
+                "title": "The Texas Chainsaw Massacre (1974)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Massacre_%C3%A0_la_tron%C3%A7onneuse_(film,_1974)",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-the-texas-chain-saw-massacre-hd-18520",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_3",
+                "title": "The Texas Chainsaw Massacre 2 (1986)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Massacre_%C3%A0_la_tron%C3%A7onneuse_2",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-the-texas-chainsaw-massacre-2-hd-13402",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_4",
+                "title": "Leatherface: The Texas Chainsaw Massacre 3 (1990)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Leatherface_:_Massacre_%C3%A0_la_tron%C3%A7onneuse_3",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-leatherface-the-texas-chainsaw-massacre-iii-hd-14001",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_5",
+                "title": "Texas Chainsaw Massacre: The Next Generation (1995)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Massacre_%C3%A0_la_tron%C3%A7onneuse_:_La_Nouvelle_G%C3%A9n%C3%A9ration",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-texas-chainsaw-massacre-the-next-generation-hd-12943",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_6",
+                "title": "The Texas Chainsaw Massacre (2003)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Massacre_%C3%A0_la_tron%C3%A7onneuse_(film,_2003)",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-the-texas-chainsaw-massacre-hd-16714",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_7",
+                "title": "The Texas Chainsaw Massacre: The Beginning (2006)",
+                "lien_info": "",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-the-texas-chainsaw-massacre-the-beginning-hd-18476",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_8",
+                "title": "Texas Chainsaw 3D (2013)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Texas_Chainsaw_3D",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-texas-chainsaw-3d-hd-17585",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_9",
+                "title": "Leatherface (2017)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Leatherface_(film)",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-leatherface-hd-18019",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_TCM_10",
+                "title": "Texas Chainsaw Massacre (2022)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Massacre_%C3%A0_la_tron%C3%A7onneuse_(film,_2022)",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-texas-chainsaw-massacre-hd-77449",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_psychose",
+        "title": "Psychose",
+        "description": "La saga Psychose suit Norman Bates, un homme perturbé qui gère un motel isolé et cache une personnalité secrète, celle de sa mère décédée, qu’il incarne à travers des meurtres violents. Le premier film, réalisé par Alfred Hitchcock, est un thriller psychologique emblématique où l'intrigue évolue autour de la disparition d'une femme et des secrets macabres du motel. Les suites explorent la psyché de Bates et les conséquences de ses crimes, mêlant suspense, horreur et analyses psychologiques.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_psychose_2",
+                "title": "Psychose (1960)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Psychose_(film)",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-psycho-hd-19203",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_psychose_3",
+                "title": "Psychose 2 (1983)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Psychose_2",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-psycho-ii-hd-10698",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_psychose_4",
+                "title": "Psychose 3 (1986)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Psychose_3",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-psycho-iii-hd-9973",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_psychose_5",
+                "title": "Psychose 4 (1990)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Psychose_4",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-psycho-iv-the-beginning-hd-7271",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_thething",
+        "title": "The Thing (1982)",
+        "description": "The Thing (1982), réalisé par John Carpenter, suit une équipe de chercheurs en Antarctique confrontée à une créature extraterrestre capable d’imiter parfaitement ses victimes. Alors que la paranoïa grandit au sein du groupe, les membres se méfient les uns des autres, incapables de distinguer l'humain de l'entité. Ce film culte mélange horreur, suspense et effets spéciaux saisissants, explorant les thèmes de la survie et de la méfiance dans un isolement glacial.",
+        "type": -1,
+        "lien_info": "https://fr.wikipedia.org/wiki/The_Thing_(film,_1982)",
+        "lien_trailer": "",
+        "lien_vo": "https://hdtodayz.to/movie/watch-the-thing-hd-19264",
+        "lien_vf": ""
+    },
+    {
+        "id": "horreur_sagazombies",
+        "title": "Saga des Zombies",
+        "description": "La saga des Zombies de George A. Romero explore l’émergence et l’évolution d’une apocalypse zombie à travers plusieurs films cultes. Chaque volet, à commencer par La Nuit des morts-vivants (1968), suit des groupes de survivants luttant contre des hordes de morts-vivants tout en confrontant les aspects sombres de l'humanité, comme la peur, la cupidité et le désespoir. Mélangeant horreur, critique sociale et survie, la série redéfinit le genre zombie en abordant des thèmes profonds tels que le consumérisme, la militarisation et les divisions sociales.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_sagazombies_2",
+                "title": "La Nuit des Morts-Vivants (1968)",
+                "lien_info": "https://fr.wikipedia.org/wiki/La_Nuit_des_morts-vivants",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_3",
+                "title": "Zombie (1978)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Zombie_(film)",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_4",
+                "title": "Le Jour des Morts-Vivants (1985)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Le_Jour_des_morts-vivants",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_5",
+                "title": "La Nuit des Morts Vivants (Remake, 1990)",
+                "lien_info": "https://fr.wikipedia.org/wiki/La_Nuit_des_morts-vivants_(film,_1990)",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_6",
+                "title": "L'Armée des Morts (Remake, 2004)",
+                "lien_info": "https://fr.wikipedia.org/wiki/L%27Arm%C3%A9e_des_morts",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_7",
+                "title": "Le Jour des Morts Vivants 2 : Contagium (2005)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Le_Jour_des_morts_vivants_2_:_Contagium",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_8",
+                "title": "Le Territoire des Morts (2005)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Le_Territoire_des_morts",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_9",
+                "title": "Le Jour des Morts (Remake, 2008)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Le_Jour_des_morts",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_10",
+                "title": "Chronique des Morts-Vivants (2008)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Chronique_des_morts-vivants",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_11",
+                "title": "Le Vestige des Morts-Vivants (2010)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Survival_of_the_Dead",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_sagazombies_12",
+                "title": "Day of the Dead: Bloodline (2018)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Day_of_the_Dead:_Bloodline",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_dracula",
+        "title": "Dracula (1992)",
+        "description": "Dracula (1992), réalisé par Francis Ford Coppola, raconte l’histoire tragique du comte Dracula, un vampire immortel, qui découvre Mina, la réincarnation de son amour perdu, Elisabeta. À travers une sombre romance, il lutte entre son désir d’amour et sa nature monstrueuse, tout en affrontant le professeur Van Helsing et ses alliés, qui cherchent à le détruire. Le film mêle passion, horreur gothique et tragédie, offrant une interprétation visuellement somptueuse du roman de Bram Stoker.",
+        "type": -1,
+        "lien_info": "https://fr.wikipedia.org/wiki/Dracula_(film,_1992)",
+        "lien_trailer": "",
+        "lien_vo": "https://hdtodayz.to/movie/watch-dracula-hd-18638",
+        "lien_vf": ""
+    },
+    {
+        "id": "horreur_rec",
+        "title": "[•REC]",
+        "description": "La saga [•REC] suit une série d'événements terrifiants déclenchés par une infection virale qui transforme les gens en créatures violentes et enragées. Le premier film suit une journaliste et son caméraman piégés dans un immeuble en quarantaine, où ils découvrent des origines surnaturelles à l'infection. Les suites explorent l'expansion de la contagion, ses liens avec une possession démoniaque, et la lutte désespérée pour contenir le chaos, mêlant horreur réaliste et found footage intense.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_rec_2",
+                "title": "Rec (2007)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Rec_(film)",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-rec-hd-18812",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_rec_3",
+                "title": "Rec 2 (2009)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Rec_2",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_rec_4",
+                "title": "Rec 3 Génesis (2012)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Rec_3_G%C3%A9nesis",
+                "lien_trailer": "",
+                "lien_vo": "https://hdtodayz.to/movie/watch-rec-genesis-hd-10346",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_rec_5",
+                "title": "Rec 4 (2014)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Rec_4",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_exorciste",
+        "title": "The Exorcist",
+        "description": "La saga The Exorcist explore les confrontations entre des forces démoniaques et des prêtres cherchant à les exorciser. Le premier film suit la possession terrifiante de Regan MacNeil, une jeune fille, et le combat spirituel mené par des prêtres pour la sauver. Les films suivants développent l’univers des possessions démoniaques, les origines du Mal, et les luttes intenses entre foi, doute et forces surnaturelles.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_exorciste_2",
+                "title": "The Exorcist (1973)",
+                "lien_info": "https://fr.wikipedia.org/wiki/L%27Exorciste_(film)",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_exorciste_3",
+                "title": "Exorcist II: The Heretic (1977)",
+                "lien_info": "https://fr.wikipedia.org/wiki/L%27Exorciste_2_:_L%27H%C3%A9r%C3%A9tique",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_exorciste_4",
+                "title": "The Exorcist III: Legion (1990)",
+                "lien_info": "https://fr.wikipedia.org/wiki/L%27Exorciste,_la_suite",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_exorciste_5",
+                "title": "Exorcist: The Beginning (2004)",
+                "lien_info": "https://fr.wikipedia.org/wiki/L%27Exorciste_:_Au_commencement",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_exorciste_2",
+                "title": "Dominion: Prequel to the Exorcist (2005)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Dominion:_Prequel_to_the_Exorcist",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_chucky",
+        "title": "Chucky",
+        "description": "La saga Chucky suit les méfaits de Chucky, une poupée possédée par l'esprit d'un tueur en série, Charles Lee Ray, qui utilise la magie vaudoue pour échapper à la mort. À travers les films, Chucky tente de transférer son âme dans un corps humain tout en semant la terreur et le chaos. Mélangeant horreur, humour noir et satire, la série explore les thèmes de la possession, de la vengeance et de la survie face à un ennemi aussi effrayant que sarcastique.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_chucky_2",
+                "title": "Child's Play (1988)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Jeu_d%27enfant_(film)",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_chucky_3",
+                "title": "Child's Play 2 (1990)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Chucky,_la_poup%C3%A9e_de_sang",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_chucky_4",
+                "title": "Child's Play 3 (1991)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Chucky_3",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_chucky_5",
+                "title": "Bride of Chucky (1998)",
+                "lien_info": "https://fr.wikipedia.org/wiki/La_Fianc%C3%A9e_de_Chucky",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_chucky_6",
+                "title": "Seed of Chucky (2004)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Le_Fils_de_Chucky",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_chucky_7",
+                "title": "Curse of Chucky (2013)",
+                "lien_info": "https://fr.wikipedia.org/wiki/La_Mal%C3%A9diction_de_Chucky",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_chucky_8",
+                "title": "Cult of Chucky (2017)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Le_Retour_de_Chucky",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_dentsmer",
+        "title": "Les Dents de la Mer",
+        "description": "La saga Les Dents de la Mer suit les affrontements entre des humains et des grands requins blancs meurtriers, qui terrorisent des stations balnéaires ou des zones maritimes. Le premier film se concentre sur le chef de la police Brody, un biologiste marin et un chasseur de requins qui s’unissent pour éliminer un prédateur géant. Les suites explorent de nouveaux requins et victimes, mêlant suspense aquatique, survie et affrontements avec la nature sauvage.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_dentsmer_2",
+                "title": "Les Dents de la Mer (1975)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Les_Dents_de_la_mer",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_dentsmer_3",
+                "title": "Les Dents de la Mer 2 (1978)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Les_Dents_de_la_mer,_2e_partie",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_dentsmer_4",
+                "title": "Les Dents de la Mer 3 (1983)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Les_Dents_de_la_mer_3",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_dentsmer_5",
+                "title": "Les Dents de la Mer 4 (1987)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Les_Dents_de_la_mer_4",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_destinationfinale",
+        "title": "Destination Finale",
+        "description": "La saga Destination Finale suit des groupes de personnes qui échappent de justesse à une catastrophe grâce à une prémonition, mais se retrouvent ensuite traqués par la Mort elle-même. Incapable d'accepter d'avoir été déjouée, la Mort orchestre des accidents macabres pour récupérer ceux qui devaient mourir. Chaque film mêle suspense, créativité morbide et une exploration du destin et de l'inéluctabilité de la mort.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_destinationfinale_2",
+                "title": "Destination finale (2000)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Destination_finale",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_destinationfinale_3",
+                "title": "Destination finale 2 (2003)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Destination_finale_2",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_destinationfinale_4",
+                "title": "Destination finale 3 (2006)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Destination_finale_3",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_destinationfinale_5",
+                "title": "Destination finale 4 (2009)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Destination_finale_4",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_destinationfinale_6",
+                "title": "Destination finale 5 (2011)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Destination_finale_5",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_destinationfinale_7",
+                "title": "Final Destination: Bloodlines (2025)",
+                "lien_info": "https://fr.wikipedia.org/wiki/Final_Destination:_Bloodlines",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_wrongturn",
+        "title": "Wrong Turn",
+        "description": "La saga Wrong Turn suit des groupes de personnes égarées dans les forêts isolées des Appalaches, où ils deviennent les proies de cannibales déformés vivant en marge de la société. Chaque film présente une lutte pour la survie, mêlant pièges brutaux, chasse implacable et horreur gore. La franchise explore les dangers des régions reculées et la cruauté humaine dans des récits sanglants et oppressants.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_wrongturn_2",
+                "title": "Wrong Turn (2003)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_wrongturn_3",
+                "title": "Wrong Turn 2: Dead End (2007)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel_2",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_wrongturn_4",
+                "title": "Wrong Turn 3: Left for Dead (2009)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel_3",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_wrongturn_5",
+                "title": "Wrong Turn 4: Bloody Beginnings (2011)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel_4",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_wrongturn_6",
+                "title": "Wrong Turn 5: Bloodlines (2012)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel_5",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_wrongturn_7",
+                "title": "Wrong Turn 6: Last Resort (2014)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel_6",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_wrongturn_8",
+                "title": "Wrong Turn (2021)",
+                "lien_info": "https://fr.wikipedia.org/wiki/D%C3%A9tour_mortel_:_La_Fondation",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
+    },
+    {
+        "id": "horreur_grudge",
+        "title": "The Grudge",
+        "description": "La saga The Grudge explore une malédiction née d'une mort violente, où les victimes de rage intense laissent derrière elles une force vengeresse. Toute personne entrant dans la maison maudite devient la cible de Kayako et Toshio, des esprits hantant le lieu et poursuivant leurs victimes sans répit. À travers plusieurs films, la série mêle horreur psychologique, atmosphère oppressante et récits entrecroisés, montrant comment la malédiction se propage et détruit tout sur son passage.",
+        "type": 1,
+        "list": [
+            {
+                "id": "horreur_grudge_2",
+                "title": "The Grudge (2004)",
+                "lien_info": "https://fr.wikipedia.org/wiki/The_Grudge",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_grudge_3",
+                "title": "The Grudge 2 (2006)",
+                "lien_info": "https://fr.wikipedia.org/wiki/The_Grudge_2",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_grudge_4",
+                "title": "The Grudge 3 (2009)",
+                "lien_info": "https://fr.wikipedia.org/wiki/The_Grudge_3",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            },
+            {
+                "id": "horreur_grudge_5",
+                "title": "The Grudge (2022)",
+                "lien_info": "https://fr.wikipedia.org/wiki/The_Grudge_(film,_2020)",
+                "lien_trailer": "",
+                "lien_vo": "",
+                "lien_vf": ""
+            }
+        ]
     }
 ];
