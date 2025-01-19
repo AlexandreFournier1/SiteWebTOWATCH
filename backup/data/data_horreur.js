@@ -10,14 +10,6 @@ window.data_horreur = [
         "type": 1,
         "list": [
             {
-                "id": "horreur_halloween_5",
-                "title": "Halloween 6 : The Curse of Michael Myers",
-                "lien_info": "https://fr.wikipedia.org/wiki/Halloween_6",
-                "lien_trailer": "",
-                "lien_vo": "https://hdtodayz.to/movie/watch-halloween-the-curse-of-michael-myers-hd-18227",
-                "lien_vf": ""
-            },
-            {
                 "id": "horreur_halloween_6",
                 "title": "Halloween H20 : Twenty Years Later",
                 "lien_info": "https://fr.wikipedia.org/wiki/Halloween,_20_ans_apr%C3%A8s",
