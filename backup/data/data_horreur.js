@@ -824,16 +824,6 @@ window.data_horreur = [
         "lien_vf": "https://smartv-streaming.com/film-affiche/994143/"
     },
     {
-        "id": "horreur_janedoeidentity",
-        "title": "The Jane Doe Identity",
-        "description": "Lorsqu'un père et son fils, médecins légistes, autopsient une femme inconnue retrouvée dans des circonstances mystérieuses, des phénomènes étranges se produisent. La victime semble cacher un terrible secret qui met leur vie en danger. Une horreur intrigante mêlant mystère et surnaturel.",
-        "type": -1,
-        "lien_info": "https://fr.wikipedia.org/wiki/The_Jane_Doe_Identity",
-        "lien_trailer": "https://youtu.be/BmSw7cpumkI?si=ISM3nA2tGXegeg_m",
-        "lien_vo": "https://hdtodayz.to/movie/watch-the-autopsy-of-jane-doe-hd-18238",
-        "lien_vf": "https://smartv-streaming.com/film-affiche/397243/"
-    },
-    {
         "id": "horreur_deardavid",
         "title": "Dear David",
         "description": "Un jeune dessinateur de bandes dessinées commence à être hanté par un garçon fantomatique nommé David, après avoir partagé son histoire sur les réseaux sociaux. Ce qui commence par des apparitions troublantes escalade en une terreur inévitable. Inspiré d'une histoire virale, le film explore les frontières entre réalité et fiction.",
